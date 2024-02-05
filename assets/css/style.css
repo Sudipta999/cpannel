@@ -1,0 +1,313 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap");
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+.header-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 11;
+}
+
+.genie_img {
+  width: 100%;
+  display: block;
+}
+
+.logo_box {
+  text-align: left;
+  padding: 5px 0;
+  margin-left: -12px;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 991px) {
+  .logo_box {
+    margin-left: 0;
+  }
+}
+
+.logo_box a {
+  display: inline-block;
+}
+
+.ban-text-wrap {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+@media (max-width: 1024px) {
+  .ban-text-wrap {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+@media (max-width: 767px) {
+  .ban-text-wrap {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
+
+.banner {
+  position: relative;
+  padding-top: 50px;
+}
+
+.banner:after {
+  background-image: url(../images/banner-bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: cover;
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.banner .container {
+  position: relative;
+  z-index: 10;
+}
+
+.banner .container-fluid {
+  position: relative;
+  z-index: 10;
+}
+
+.banner .ban-row {
+  align-items: center;
+}
+
+.ginie-img img {
+  width: 100%;
+  display: block;
+}
+
+.tag-line {
+  font-size: 40px;
+  font-weight: 700;
+  color: #484957;
+}
+
+@media (max-width: 991px) {
+  .tag-line {
+    color: #ffffff;
+  }
+}
+
+.tag-line span {
+  color: #FD4501;
+}
+
+.ban-desc {
+  font-size: 16px;
+  color: #484957;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+
+@media (max-width: 991px) {
+  .ban-desc {
+    color: #d9d9d9;
+  }
+}
+
+.used_app {
+  display: flex;
+  align-items: center;
+  margin-top: 35px;
+}
+
+.used_app ul {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  padding: 0;
+}
+
+.used_app ul li:not(:first-child) {
+  margin-left: -15px;
+}
+
+.used_app ul li {
+  list-style-type: none;
+}
+
+.used_app ul li img {
+  height: 40px;
+  width: 40px;
+  line-height: 3rem;
+}
+
+.used_app p {
+  font-size: 16px;
+  color: #484957;
+  font-weight: 500;
+  line-height: 1;
+}
+
+@media (max-width: 991px) {
+  .used_app p {
+    color: #d9d9d9;
+  }
+}
+
+.title-1 {
+  font-size: 32px;
+  color: #484957;
+}
+
+.title-1 span {
+  color: #FD4501;
+}
+
+.btn.site-btn-primary {
+  background-color: #425A8B;
+  color: #ffffff;
+}
+
+.btn.site-btn-primary:hover {
+  background-color: #324468;
+}
+
+.site-footer {
+  background-color: #425A8B;
+}
+
+.footer-quick-link {
+  align-items: center;
+}
+
+.footer-quick-link .icons lord-icon {
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.footer-quick-link .text {
+  padding-left: 10px;
+  color: #ffffff;
+}
+
+.footer-quick-link .text a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+@media (max-width: 1024px) {
+  .footer-quick-link .text a {
+    font-size: 16px;
+  }
+}
+
+.social_list {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (max-width: 991px) {
+  .social_list {
+    justify-content: flex-start;
+  }
+}
+
+.social_list a {
+  width: 40px;
+  height: 40px;
+  display: block;
+  padding: 5px;
+}
+
+@media (max-width: 1024px) {
+  .social_list a {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.social_list a svg {
+  width: 100%;
+  height: 100%;
+  fill: #ffffff;
+}
+
+.box-card {
+  margin-bottom: 20px;
+}
+
+.box-card .card-body {
+  display: flex;
+}
+
+.box-card .card-body .icon-wrap {
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  flex: 0 0 auto;
+}
+
+@media (max-width: 1024px) {
+  .box-card .card-body .icon-wrap {
+    width: 36px;
+    height: 36px;
+  }
+}
+
+.box-card .card-body .icon-wrap svg {
+  width: 100%;
+  height: 100%;
+}
+
+.box-card .card-body .shrt-desc {
+  flex: 1;
+  padding-left: 10px;
+}
+
+.box-card .card-body .shrt-desc h5 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+@media (max-width: 1024px) {
+  .box-card .card-body .shrt-desc h5 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 767px) {
+  .box-card .card-body .shrt-desc h5 {
+    font-size: 18px;
+    margin-bottom: 3px;
+  }
+}
+
+.site-text {
+  color: #484957;
+  font-size: 16px;
+}
+
+@media (max-width: 1024px) {
+  .site-text {
+    font-size: 14px;
+  }
+}
+
+.choose_text {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@media (max-width: 991px) {
+  .container {
+    width: 100%;
+    max-width: 100%;
+  }
+}
