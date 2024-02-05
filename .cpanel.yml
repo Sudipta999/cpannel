@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/e2l/public_html/NRI/
+    - export DEPLOYPATH=/home/e2l/public_html/
     - /bin/cp * $DEPLOYPATH
